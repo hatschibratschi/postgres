@@ -20,5 +20,15 @@ and change the line
 to
 `local   all             postgres                                md5`
 
+restart the service with `sudo service postgresql restart`
+
 now login with
 `psql -U postgres`
+
+## get version
+`SELECT version();`
+
+```
+PostgreSQL 13.5 (Raspbian 13.5-0+deb11u1) on arm-unknown-linux-gnueabihf, compiled by gcc (Raspbian 10.2.1-6+rpi1) 10.2.1 20210110, 32-bit
+```
+
