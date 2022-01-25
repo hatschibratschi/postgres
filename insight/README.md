@@ -1,8 +1,22 @@
 # General insight into the databases
 
-## psql
+## psql meta commands
 
 `\c` connect to (other) database
+`\l[+]` list databases
+
+### Definitions
+
+`\d[+] [pattern]` show all columns, their types, the tablespace (if not the default) and any special attributes such as NOT NULL or defaults of object.
+
+
+### Stuff
+
+`\h` help for sql commands
+`\?` help for psql commands
+
+### Links
+* https://www.postgresql.org/docs/current/app-psql.html
 
 ## View running queries
 
