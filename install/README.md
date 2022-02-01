@@ -41,5 +41,3 @@ in `/etc/postgresql/13/main/postgresql.conf` set listen addresses to eg:
 and in `/etc/postgresql/13/main/pg_hba.conf` set IPv4 local connections to somthing like
 
 `host    all             all             0.0.0.0/0               md5`
-
-
